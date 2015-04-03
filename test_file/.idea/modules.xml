@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/exercism/ruby/hamming/.idea/hamming.iml" filepath="$USER_HOME$/exercism/ruby/hamming/.idea/hamming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test_file.iml" filepath="$PROJECT_DIR$/.idea/test_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../turing_lesson_plan_homework/.idea/turing_lesson_plan_homework.iml" filepath="$PROJECT_DIR$/../turing_lesson_plan_homework/.idea/turing_lesson_plan_homework.iml" />
+    </modules>
+  </component>
+</project>

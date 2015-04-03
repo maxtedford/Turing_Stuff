@@ -1,0 +1,29 @@
+states = {"Oregon" => "OR",
+          "Alabama" => "AL",
+          "New Jersey" => "NJ",
+          "Colorado" => "CO"}
+
+capitals = {"OR" => "Salem",
+            "AL" => "Montgomery",
+            "NJ" => "Trenton",
+            "CO" => "Denver"}
+
+puts "What state capital would you like to know?"
+user_input = gets.chomp
+state_abbr = states[user_input]
+if state_abbr.nil?
+  puts "I'm sorry, but I don't know that one."
+else
+  puts "The capital of #{user_input} is #{capitals[state_abbr]}."
+end
+# capitals.invert
+# states.invert
+# puts "What capital's state would you like to know?"
+# answer = gets.chomp
+# abbrev = capitals[answer]
+# if abbrev == capitals[answer]
+#   puts "#{answer} is the capital of #{states[abbrev]}"
+# else
+#   puts "I'm sorry, but I don't know that one."
+# end
+

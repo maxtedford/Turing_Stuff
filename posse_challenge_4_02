@@ -1,0 +1,4 @@
+class TuringStruct
+  def initialize(my_hash)
+  end
+end

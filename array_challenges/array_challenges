@@ -1,0 +1,36 @@
+data = [
+    ['Frank', 33],
+    ['Stacy', 15],
+    ['Juan', 24],
+    ['Dom', 32],
+    ['Steve', 24],
+    ['Jill', 24]
+]
+
+
+
+data.sort_by! {|name, age| [age, name]}
+
+data.each do |name, age|
+  puts "#{name} (#{age})"
+end
+
+
+hash_by_age = {}
+data.each do |name, age|
+  if hash_by_age[age].nil?
+    hash_by_age[age] = [name]
+  else
+    hash_by_age[age] << name
+  end
+  puts hash_by_age
+end
+
+# hash = {}
+# names = []
+#
+# data.each do |name, age|
+#   hash[age] = names.push(name)
+# end
+#
+# puts hash
